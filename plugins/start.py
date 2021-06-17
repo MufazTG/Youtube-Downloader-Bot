@@ -10,11 +10,11 @@ async def start(client, message):
             "Support Group", url="https://t.me/BxSupport")]
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\nHello,
-This is a Youtube Uploader Bot by @BX_Botz 😇
+'This is a Youtube Uploader Bot by @BX_Botz 😇'
 
-"Please Send Me Any YouTube URL 
-I Can Upload Into Telegram As Video/File
+'Please Send Me Any YouTube URL 
+I Can Upload Into Telegram As Video/File'
 
-Click /help For More Details 😇"
+'Click /help For More Details 😇'
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
