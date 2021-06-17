@@ -11,7 +11,9 @@ async def start(client, message):
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\nHello,
 'This is a Youtube Uploader Bot by @BX_Botz 😇'
-Please Send Me Any YouTube URL\n
+
+'Please Send Me Any YouTube URL'
+
 I Can Upload Into Telegram As Video/File'
 
 'Click /help For More Details' 😇
